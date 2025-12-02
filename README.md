@@ -29,13 +29,19 @@ The added [requirements file](requirements.txt) contains all libraries and depen
 
 - Install the virtual environment and the required packages by following commands:
 
-```BASH
-pyenv local 3.11.3
-python -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
+    ```BASH
+    pyenv local 3.11.3
+    python -m venv .venv
+    source .venv/bin/activate
+    pip install --upgrade pip
+    pip install -r requirements.txt
+    ```
+- or
+    ```BASH
+    uv venv
+    source .venv/bin/activate
+    uv pip install -r requirements.txt
+    ```
 ### **`Windows`** type the following commands :
 
 - Install the virtual environment and the required packages by following commands.
